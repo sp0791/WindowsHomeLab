@@ -11,5 +11,13 @@ PC001 - Desktop joined to Domain
 
 ![image](https://github.com/user-attachments/assets/97b3b2e7-a94b-447d-978e-3ebd6e65744b)
 
-• Create a Powershell Script to create Organizational Units with user INPUT.
-• Create a Powershell Script to create Organizational Units within a Organizational Unit. 
+• Create a Powershell Script to create Organizational Units with user INPUT. (OUscript1)
+- SPcomputers
+- Managers
+- HR
+- ITsupport
+- Finance
+
+• Create a Powershell Script to create Organizational Units within a Organizational Unit. (OUscript2)
+- Parent OU - SPcomputers
+- Child OU - Desktops, Laptops
