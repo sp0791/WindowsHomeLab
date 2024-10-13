@@ -19,5 +19,9 @@ PC001 - Desktop joined to Domain
 - Finance
 
 • Create a Powershell Script to create Organizational Units within a Organizational Unit. (OUscript2)
-- Parent OU - SPcomputers
-- Child OU - Desktops, Laptops
+- Parent OU - SPcomputers - Child OU - Desktops, Laptops
+- Parent OU - ITsupport - Child OU - Users.
+
+
+
+
