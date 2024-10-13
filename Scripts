@@ -1,0 +1,7 @@
+######################## OUscript1 ##############################
+
+$input=Read-Host -Prompt "Please enter the name of the New Organizational Unit"
+
+New-ADOrganizationalUnit -Name $input
+
+################################################################
