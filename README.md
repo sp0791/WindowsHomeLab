@@ -22,6 +22,9 @@ PC001 - Desktop joined to Domain
 - Parent OU - SPcomputers - Child OU - Desktops, Laptops
 - Parent OU - ITsupport - Child OU - Users.
 
+• Create a Powershell Script to add users to a specific OU with user INPUT (USscript1)
+- User 1 - 
+
 
 
 
