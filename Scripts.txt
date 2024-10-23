@@ -28,3 +28,5 @@ New-ADUser -Name $firstname $lastname -GivenName $firstName -Surname $lastName -
 -UserPrincipalName $userPrincipalName -Path $ouPath -AccountPassword (ConvertTo-SecureString "Str0ngPa$$word" -AsPlainText -Force) -Enabled $true -ChangePasswordAtLogon $true
 
 Write-Host "User $firstName $lastName has been created in OU $ouPath"
+
+####################################################################
