@@ -24,7 +24,7 @@ $samAccountName = Read-Host "Enter the SAM account name (intial follwed by last 
 $userPrincipalName = Read-Host "Enter the User Principal Name (inital.lastname@sp.com)"
 $ouPath = Read-Host "Enter the OU path (e.g., OU=Users,DC=example,DC=com)"
 
-New-ADUser -Name $firstname $lastname -GivenName $firstName -Surname $lastName -SamAccountName $samAccountName `
+New-ADUser -GivenName $firstName -Surname $lastName -SamAccountName $samAccountName `
 -UserPrincipalName $userPrincipalName -Path $ouPath -AccountPassword (ConvertTo-SecureString "Str0ngPa$$word" -AsPlainText -Force) -Enabled $true -ChangePasswordAtLogon $true
 
 Write-Host "User $firstName $lastName has been created in OU $ouPath"
